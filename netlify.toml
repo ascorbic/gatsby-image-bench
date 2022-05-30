@@ -1,0 +1,10 @@
+# example netlify.toml
+[build]
+  publish = "public"
+  comand = "gatsby-runner"
+  [[plugins]]
+  package = "@netlify/plugin-gatsby"
+
+  [[plugins]]
+  package = "@netlify/gatsby-runner"
+
