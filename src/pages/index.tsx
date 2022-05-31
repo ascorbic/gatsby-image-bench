@@ -89,7 +89,7 @@ export const query = graphql`
       nodes {
         gatsbyPath(filePath: "/images/{File.name}")
         childImageSharp {
-          gatsbyImageData(layout: FIXED, width: 200)
+          gatsbyImageData(layout: FIXED, width: 250)
         }
       }
     }
