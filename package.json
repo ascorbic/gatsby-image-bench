@@ -16,10 +16,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "gatsby": "^4.16.0-next.1",
-    "gatsby-plugin-image": "^2.16.0-next.1",
-    "gatsby-plugin-sharp": "^4.16.0-next.1",
-    "gatsby-source-filesystem": "^4.16.0-next.0",
+    "gatsby": "^4.16.0-next.2",
+    "gatsby-plugin-image": "^2.16.0-next.2",
+    "gatsby-plugin-sharp": "^4.16.0-next.2",
+    "gatsby-source-filesystem": "^4.16.0-next.1",
     "gatsby-transformer-sharp": "^4.16.0-next.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
