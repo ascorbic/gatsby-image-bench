@@ -1,6 +1,5 @@
 import { graphql, Link } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { FileNode } from "gatsby-plugin-image/dist/src/components/hooks";
 import * as React from "react";
 
 // styles
@@ -17,33 +16,6 @@ const headingStyles = {
 const headingAccentStyles = {
   color: "#663399",
 };
-const paragraphStyles = {
-  marginBottom: 48,
-};
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-};
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-};
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-};
-
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-};
 
 const masonry = {
   display: "grid",
@@ -52,9 +24,7 @@ const masonry = {
   gap: 10,
 };
 
-// markup
-const IndexPage = ({ data }) => {
-  console.log(data);
+const IndexPage = ({ data }: any) => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
